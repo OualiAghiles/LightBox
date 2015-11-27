@@ -1,0 +1,33 @@
+{
+  "name": "Jekyll-Starter",
+  "version": "0.0.0",
+  "description": "A starter project including full setup for Jekyll, Jade, GulpJS, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OualiAghiles/jekyll-starter.git"
+  },
+  "keywords": [
+    "sass",
+    "jade",
+    "browser-sync",
+    "jekyll",
+    "autoprefixer"
+  ],
+  "author": "Ouali Aghiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OualiAghiles/jekyll-starter/issues"
+  },
+  "homepage": "https://github.com/OualiAghiles/jekyll-starter",
+  "devDependencies": {
+    "autoprefixer": "^6.1.1",
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.1.0"
+  }
+}
