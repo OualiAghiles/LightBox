@@ -1,4 +1,4 @@
-# Carousel / Slider  responsive
+# LightBox responsive
 
 > This plugin made with 
 >    * Vanilla JavaScript
@@ -96,8 +96,9 @@ Add the Lightbox plugin css to the html file
     <!-- styles of the slider -->
     <link rel="stylesheet" href="assets/styles/main.css">
     
-    <!-- javascript plugin of the slider -->
-    <script src="assets/scripts/slider.js" type="module" defer></script>
+    <!-- javascript plugin of the LightBox  -->
+    <!-- the lightbox module is imported in the app.js file -->
+    <script src="assets/scripts/app.js" type="module" defer></script>
 </head>
 <body>
     
