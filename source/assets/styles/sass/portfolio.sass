@@ -1,0 +1,25 @@
+.pokemon
+  .card-body
+    overflow: hidden
+    .border-card-pokemon
+      position: absolute
+      top: -8px
+      display: block
+      width: 0
+      height: 8px
+      transition: all 0.35s ease-in-out
+      &.border-card-b
+        top: auto
+        bottom: -8px
+    img
+      transition: all 0.35s ease-in-out
+    position: relative
+    cursor: pointer
+  &:hover, &.active
+    .border-card-pokemon
+      transform: translateY(8px)
+      width: 100%             
+      &.border-card-b       
+        transform: translateY(-8px)
+    img
+      transform: scale(1.23)

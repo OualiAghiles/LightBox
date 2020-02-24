@@ -1,0 +1,27 @@
+@tailwind base
+
+@tailwind components
+
+@tailwind utilities
+
+@import sass/_vars
+
+@import sass/modal
+@import sass/lightbox
+@import sass/portfolio
+@import sass/spinner
+*
+  box-sizing: border-box
+h1
+    @apply .font-sans
+.card
+    @apply .w-full 
+    .card-body
+        @apply .rounded .shadow  
+
+.collapse_child
+  .desc
+    display: none
+  &.active
+    .desc
+      display: block

@@ -1,33 +1,43 @@
 {
-  "name": "Jekyll-Starter",
-  "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, Jade, GulpJS, SASS & BrowserSync",
-  "main": "gulpfile.js",
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OualiAghiles/jekyll-starter.git"
-  },
-  "keywords": [
-    "sass",
-    "jade",
-    "browser-sync",
-    "jekyll",
-    "autoprefixer"
-  ],
-  "author": "Ouali Aghiles",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OualiAghiles/jekyll-starter/issues"
-  },
-  "homepage": "https://github.com/OualiAghiles/jekyll-starter",
   "devDependencies": {
-    "autoprefixer": "^6.1.1",
-    "browser-sync": "^2.10.0",
-    "gulp": "^3.9.0",
-    "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.1.0"
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "imagemin": "^7.0.1",
+    "postcss-import": "^12.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "tailwindcss": "^1.1.4"
   }
 }
