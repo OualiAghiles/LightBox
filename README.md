@@ -56,9 +56,9 @@ Structure on source file
 ------
 >    visite [body scroll lock](https://github.com/willmcpo/body-scroll-lock#readme) site to details for the plugin
 
-> src
+> source
 >    - assets
->        1. img
+>        1. images
 >            - chevron.svg
 >            - close.svg
 >            - loader.svg
